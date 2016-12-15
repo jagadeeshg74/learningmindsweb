@@ -19,7 +19,7 @@
 
 body {
   padding-top: 100px;
-  background: #fff;
+   background: #fff;
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
   color: #282828;
@@ -76,7 +76,7 @@ hr {
   color: #4F4F4F;
   text-transform: uppercase;
   position: relative;
-  padding-bottom: 20px;
+  padding-bottom: 8px;
   margin: 0 0 20px;
   border-bottom: 2px solid #25A4D7;
   display: inline-block;
@@ -187,16 +187,18 @@ ul.nostyle i {
 #main-nav.navbar-default .navbar-nav > li.active > a, #main-nav.navbar-default .navbar-nav > li.open > a, #main-nav.navbar-default .navbar-nav > li:hover > a {
   background: rgb(59, 136, 192);
   color: #FFFFFF;
+ 
 }
 
 .navbar.navbar-default {
   border: 0;
   border-radius: 0;
   margin-bottom: 0;
+  
 }
 
 .navbar.navbar-default .navbar-toggle {
-  margin-top: 32px;
+  margin-top:32px;
 }
 
 .navbar.navbar-default .navbar-brand {
@@ -208,6 +210,7 @@ ul.nostyle i {
   color: #FFFFFF;
   background: #085c98;
 }
+
 
 .navbar-default .navbar-nav > li > a {
   color: #FFFFFF;
@@ -223,6 +226,9 @@ ul.nostyle i {
     -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.26);
     opacity: 0.8;
+	height:95px;
+	
+	
   }
 
   #main-nav.navbar-default .navbar-nav > li > a {
@@ -420,11 +426,18 @@ ul.nostyle i {
 .media.service-box:hover .pull-left > i {
 }
 
-#portfolio {
-  padding: 100px 0;
+#portfolio   {
+  padding: 109px 0;
   background: #FFFFFF;
 }
-
+#training   {
+  padding: 119px 0;
+  background: #FFFFFF;
+}
+#courses  {
+  padding: 119px 0;
+  background: #FFFFFF;
+}
 #portfolio .portfolio-filter {
   list-style: none;
   padding: 0;
@@ -617,7 +630,7 @@ ul.nostyle i {
 }
 
 #about {
-  padding: 100px 0;
+  padding: 109px 0;
   background: #EDEDED;
 }
 
